@@ -1,0 +1,101 @@
+/* Background texture */
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #333;
+    background: url("green.jpg") repeat;
+    cursor: none;
+}
+
+/* Header */
+header {
+    font-family: 'Dancing Script';
+    font-size: large;
+    text-align: center;
+    padding: 50px;
+}
+
+.logo {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-style: italic;
+}
+
+.intro {
+    color: #555;
+}
+
+/* Bio section */
+.bio {
+    font-family: 'Dancing Script';
+    font-size: large;
+    color: #555;
+    text-align: center;
+    padding: 40px;
+}
+h2 {
+    color: #2c3e50;
+    font-style: italic;
+}
+
+.profile-img {
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+/* Navbar Desktop */
+.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b2f0bf;
+  text-align: center;   /* centers inline-block li */
+}
+
+/* List items */
+.navbar li {
+  float: left;
+  display: inline-block;
+}
+
+/* Links */
+.navbar li a {
+  display: block;
+  color: #3f2f3e;
+  text-align: center;
+  padding: 14px 30px;   /* spacing inside */
+  margin: 0 15px;       /* spacing between links */
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+/* Hover effect */
+.navbar li a:hover {
+  background-color: #1d8e4c;
+  color: white;
+}
+
+/* MOBILE VERSION */
+@media screen and (max-width: 768px) {
+
+  .navbar li {
+    float: none;          /* removes horizontal float */
+    width: 100%;          /* full width */
+  }
+
+  .navbar li a {
+    text-align: center;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+  }
+
+}
